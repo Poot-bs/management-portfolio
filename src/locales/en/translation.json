@@ -1,0 +1,53 @@
+{
+    "navbar": {
+      "home": "Home",
+      "about": "About",
+      "projects": "Projects",
+      "contact": "Contact"
+    },
+    "hero": {
+      "title": "Hi, I'm <1>Lamis Essabay</1>",
+      "subtitle": "Management Student & Creative Thinker",
+      "button": "View My Work"
+    },
+    "about": {
+      "title": "About Me",
+      "description1": "I'm a passionate management student with a creative flair for design and strategy.",
+      "description2": "Currently pursuing my Bachelor's in International Program in Management with a focus on Marketing and Innovation Management at International University of Rabat.",
+      "skillsTitle": "My Skills"
+    },
+    "skills": {
+  "strategic": "Strategic Planning",
+  "project": "Project Management",
+  "data": "Data Analysis",
+  "team": "Team Leadership",
+  "creative": "Creative Problem Solving",
+  "marketing": "Marketing"
+},
+"projects": {
+  "title": "My Projects",
+  "project1": {
+    "title": "Market Analysis Dashboard",
+    "description": "Developed a comprehensive dashboard for analyzing market trends using Tableau."
+  },
+  "project2": {
+    "title": "Brand Strategy Project",
+    "description": "Created a complete brand strategy for a local startup including positioning and identity."
+  },
+  "project3": {
+    "title": "Sustainability Initiative",
+    "description": "Led a campus-wide sustainability program that reduced waste by 30%."
+  },
+  "tags": {
+    "data": "Data Visualization",
+    "market": "Market Research",
+    "tableau": "Tableau",
+    "branding": "Branding",
+    "marketing": "Marketing",
+    "strategy": "Strategy",
+    "management": "Project Management",
+    "sustainability": "Sustainability",
+    "leadership": "Leadership"
+  }
+}
+  }

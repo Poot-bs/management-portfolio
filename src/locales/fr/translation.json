@@ -1,0 +1,57 @@
+{
+    "navbar": {
+      "home": "Accueil",
+      "about": "À propos",
+      "projects": "Projets",
+      "contact": "Contact"
+    },
+    "hero": {
+      "title": "Salut, je suis <1>Lamis Essabay</1>",
+      "subtitle": "Étudiante en management & penseuse créative",
+      "button": "Voir mon travail"
+    },
+    "about": {
+      "title": "À propos de moi",
+      "description1": "Je suis une étudiante passionnée en management avec un esprit créatif pour le design et la stratégie.",
+      "description2": "Actuellement en licence en Programme International en Management des Affaires avec une spécialisation en Marketing et Gestion de l'Innovation à l’Université International de Rabat.",
+      "skillsTitle": "Mes compétences"
+    },
+    "skills": {
+  "strategic": "Planification stratégique",
+  "project": "Gestion de projet",
+  "data": "Analyse de données",
+  "team": "Leadership d'équipe",
+  "creative": "Résolution créative de problèmes",
+  "marketing": "Marketing"
+},
+"projects": {
+  "title": "Mes projets",
+  "project1": {
+    "title": "Tableau de bord d'analyse de marché",
+    "description": "Développement d’un tableau de bord complet pour analyser les tendances du marché avec Tableau."
+  },
+  "project2": {
+    "title": "Projet de stratégie de marque",
+    "description": "Création d'une stratégie de marque complète pour une startup locale, incluant le positionnement et l'identité."
+  },
+  "project3": {
+    "title": "Initiative de durabilité",
+    "description": "Direction d’un programme de durabilité à l’échelle du campus ayant réduit les déchets de 30 %."
+  },
+  "tags": {
+    "data": "Visualisation de données",
+    "market": "Étude de marché",
+    "tableau": "Tableau",
+    "branding": "Image de marque",
+    "marketing": "Marketing",
+    "strategy": "Stratégie",
+    "management": "Gestion de projet",
+    "sustainability": "Durabilité",
+    "leadership": "Leadership"
+  }
+}
+
+
+
+  }
+  
