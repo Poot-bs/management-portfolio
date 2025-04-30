@@ -1,24 +1,47 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useState, useEffect } from 'react';
+import { BrowserRouter as Router } from 'react-router-dom';
+import './i18n';
+import Navbar from './components/navbar';
+import Hero from './sections/hero';
+import About from './sections/about';
+import Projects from './sections/projects';
+import Contact from './sections/contact';
+import Footer from './components/footer';
+import PageTransition from './components/pagetransition';
+import './styles/app.css';
+import Loader from './components/loader';
 
 function App() {
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setLoading(false);
+    }, 2500);
+
+    return () => clearTimeout(timer);
+  }, []);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <div className="App">
+        {loading ? (
+            <Loader />        ) : (
+          <>
+            <Navbar />
+            <main>
+              <PageTransition>
+                <Hero />
+                <About />
+                <Projects />
+                <Contact />
+              </PageTransition>
+            </main>
+            <Footer />
+          </>
+        )}
+      </div>
+    </Router>
   );
 }
 
